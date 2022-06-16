@@ -15,7 +15,7 @@ function Button() {
           key={e.dataElement}
           data-element={e.dataElement}
         >
-          <FontAwesomeIcon icon={e.icon} />
+          <FontAwesomeIcon icon={e.icon} size="lg" />
         </button>
       ))}
     </div>
