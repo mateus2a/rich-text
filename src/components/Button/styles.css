@@ -1,0 +1,11 @@
+.text-editor-header {
+  background-color: #ecf0f1;
+  padding: 5px;
+}
+
+.text-editor-header .btn {
+  border: none;
+  outline: none;
+  background: transparent;
+  margin-right: 5px;
+}

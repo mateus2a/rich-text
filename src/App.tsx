@@ -3,13 +3,13 @@ import React from "react";
 import Button from "./components/Button";
 import EditTable from "./pages/EditTable";
 
+import "./App.css";
+
 function App() {
   return (
     <div className="main-content">
-      <div>
-        <Button />
-        <EditTable />
-      </div>
+      <Button />
+      <EditTable />
     </div>
   );
 }
