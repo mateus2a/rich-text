@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
 import { buttons } from "../../data/buttons";
@@ -7,7 +8,7 @@ function Button() {
     <div className="text-editor-header">
       {buttons.map((e) => (
         <button type="button" key={e.dataElement} data-element={e.dataElement}>
-          <i className={e.class} />
+          <FontAwesomeIcon icon={e.icon} />
         </button>
       ))}
     </div>
